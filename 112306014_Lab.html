@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Introduction</title>
+</head>
+<body>
+	<center>
+		<h1><em>Introduction<img src = "sleep.png" width = "10%" alt = "photo"></em></h1>
+	<id>
+	<table border = "3" width = "70%" 	 style ="background-color:#EFC7F9" >
+		<tr>
+			<th colspan = "3" ><h3><em><strong>About--112306014</strong></em></h3> 
+		</th>
+		</tr>
+
+		<tr>
+			<th rowspan = "4" width = "200px">
+				<img src = "personal picture.jpg" width = "60%" height = "60%" alt = "personal picture"><br>
+				<em>personal photo</em>
+			</th>
+
+		</tr>
+		<tr>
+			<td colspan = "2">
+					Name<input Name = "Name" type = "text" size = "25" maxlength = "30" placeholder = "王莉雅" style ="background-color:#E28FF7">
+				<form>
+					<input type = "radio" name = "gender" value = "male" > Male
+					<input type = "radio" name = "gender" value ="female" checked> Female
+					<input type = "radio" name = "gender" value = "other"> Other
+				</form>
+			</td>
+		
+		</tr>
+		<tr>
+			<td>County:
+			<select county = "county" style ="background-color:#E28FF7">
+				<option value = "Taipei">Taipei</option">
+				<option value= "TaoYuan">TaoYuan</option>
+				<option value = "taichung">Taichung</option>
+				<option value = "Tainan">Tainan</option>
+				<option value = "Kaohsiung" selected>Kaohsiung</option>
+			</select>
+		</td>
+
+		<td>
+			<form action = "/action_page.php">
+			<label for = "birthday">Birthday:</label >
+			<input type = "date" id = "birthday" name = "birthday" value = "2004-01-08" style ="background-color:#E28FF7">
+		</form>
+		</td>
+		</tr>
+
+		<tr>
+			<td colspan = "2">
+					E-mail: <input type = "email" name = "email" placeholder = "StudentID@g.nccu.edu.tw" required style ="background-color:#E28FF7">
+			</td>
+		</tr>
+
+		<tr>
+			<td rowspan = "2">Hobby</td>
+		</tr>
+
+		<tr>
+			<td colspan = "2">
+				<form action = "/action_page.php" method = "get">
+					<input type = "checkbox" name = "hobby"> Swimming
+					<input type = "checkbox" name = "hobby"> Volleyball
+					<input type = "checkbox" name = "hobby"> Movie
+					<input type = "checkbox" name = "hobby"> Game
+					<input type = "checkbox" name = "hobby" checked> Sleep
+				</form>
+			</td>
+		</tr>
+
+		<tr>
+			<td rowspan = "2">Skill</td>
+		</tr>
+
+		<tr>
+			<td colspan = "2">
+				<form action = "/action_page.php" method = "get">
+					<input type = "checkbox" name = "skill"checked> Java
+					<input type = "checkbox" name = "skill"> HTML
+					<input type = "checkbox" name = "skill"checked> Python
+					<input type = "checkbox" name = "skill"> Microsoft Office
+					<input type = "checkbox" name = "skill"> Premiere
+				</form>
+			</td>
+		</tr>
+
+		<tr>
+			<td rowspan = "2">Say Something</td>
+		</tr>
+
+		<tr>
+			<td colspan = "2" >
+			<p><input 
+				type = "enter"
+				name = "enter" 
+				placeholder = "Say something here.(希望計概能及格)" 
+				maxlength = "200" 
+				size = "90"  
+				style = "background-color:#E28FF7"></p>
+		</td>
+		</tr>
+
+
+
+	</table>
+</id>
+</center>
+</body>
+</html>
